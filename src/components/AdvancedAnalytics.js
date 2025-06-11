@@ -3,8 +3,8 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 import { TrendingUp, Clock, Zap, AlertTriangle, Calendar, DollarSign, Target, Activity } from 'lucide-react';
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? process.env.REACT_APP_API_URL || 'http://localhost:3000'
-  : 'http://localhost:3000';
+  ? process.env.REACT_APP_API_URL || 'https://pi-4sem-backend.onrender.com'
+  : 'https://pi-4sem-backend.onrender.com';
 
 const analyticsService = {
   async getDailyConsumption(params = {}) {

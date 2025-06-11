@@ -5,8 +5,8 @@ import AdvancedAnalytics from './AdvancedAnalytics';
 
 // Configuração da API
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? process.env.REACT_APP_API_URL || 'http://localhost:3000'
-  : 'http://localhost:3000';
+  ? process.env.REACT_APP_API_URL || 'https://pi-4sem-backend.onrender.com'
+  : 'https://pi-4sem-backend.onrender.com';
 
 // Serviço de API
 const apiService = {
